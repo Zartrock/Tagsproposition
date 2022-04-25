@@ -1,4 +1,4 @@
-with open('Zartrock/Tagsproposition/lda_model.pkl', 'rb') as file:
+with open(r'Tagsproposition/lda_model.pkl', 'rb') as file:
    lda_model = pickle.load(file)
    
 print('good')
