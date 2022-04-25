@@ -1,3 +1,6 @@
+with open(r'C:\Users\jonas\Desktop\OC\P5\code\lda_model.pkl', 'rb') as file:
+   lda_model = pickle.load(file)
+   
 import pickle
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -26,11 +29,11 @@ from gensim.models import CoherenceModel
 nltk.download('wordnet', r'C:\Users\jonas\PycharmProjects\pythonProject1\code\nltk_data')
 nltk.data.path.append(r'C:\Users\jonas\PycharmProjects\pythonProject1\code\nltk_data')
 
-with open(r'C:/Users/jonas/Desktop/OC/P5/code/lda_model.pkl', 'rb') as file:
+""""with open(r'C:/Users/jonas/Desktop/OC/P5/code/lda_model.pkl', 'rb') as file:
    lda_model = pickle.load(file)
 
 with open(r'C:/Users/jonas/Desktop/OC/P5/code/dictionary.pkl', 'rb') as filevoc:
-    id2word = pickle.load(filevoc)
+    id2word = pickle.load(filevoc)""""
 
 def clean_html(text):
     """
