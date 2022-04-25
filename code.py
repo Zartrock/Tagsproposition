@@ -1,9 +1,10 @@
 
-f = open("Tagsproposition/lda_model.pkl", "r")
+import pickle
+f = open("Tagsproposition/lda_model.pkl", "rb")
 print(f.read())
 
 print('good')
-import pickle
+
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import lxml
