@@ -1,6 +1,7 @@
-with open(r'Tagsproposition/lda_model.pkl', 'rb') as file:
-   lda_model = pickle.load(file)
-   
+
+f = open("Tagsproposition/lda_model.pkl", "r")
+print(f.read())
+
 print('good')
 import pickle
 from sklearn.model_selection import train_test_split
