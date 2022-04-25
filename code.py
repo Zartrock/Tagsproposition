@@ -26,10 +26,10 @@ from gensim.models import CoherenceModel
 nltk.download('wordnet', r'C:\Users\jonas\PycharmProjects\pythonProject1\code\nltk_data')
 nltk.data.path.append(r'C:\Users\jonas\PycharmProjects\pythonProject1\code\nltk_data')
 
-with open('C:/Users/jonas/Desktop/OC/P5/lda_model.pkl', 'rb') as file:
+with open('C:/Users/jonas/Desktop/OC/P5/code/lda_model.pkl', 'rb') as file:
    lda_model = pickle.load(file)
 
-with open('C:/Users/jonas/Desktop/OC/P5/dictionary.pkl', 'rb') as filevoc:
+with open('C:/Users/jonas/Desktop/OC/P5/code/dictionary.pkl', 'rb') as filevoc:
     id2word = pickle.load(filevoc)
 
 
