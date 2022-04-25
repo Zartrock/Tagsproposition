@@ -19,6 +19,7 @@ import re
 import pickle
 from bs4 import BeautifulSoup
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk import word_tokenize
 from nltk.tokenize import sent_tokenize
