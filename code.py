@@ -3,6 +3,8 @@ import pickle
 f = open("test.txt", "rb")
 print(f.read())
 
+f = open("lda_model.pkl", "rb")
+print(f.read())
 print('good')
 
 from sklearn.model_selection import train_test_split
