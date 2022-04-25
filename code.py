@@ -1,5 +1,6 @@
-with open('C:/Users/jonas/Documents/test/test.txt', 'r') as test:
-   lda_model = f.read()
+with open('Zartrock/Tagsproposition/lda_model.pkl', 'rb') as file:
+   lda_model = pickle.load(file)
+   
 print('good')
 import pickle
 from sklearn.model_selection import train_test_split
