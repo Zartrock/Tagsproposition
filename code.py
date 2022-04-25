@@ -10,6 +10,8 @@ print('good')
 f1 = open("dictionary.pkl", "rb")
 id2word = pickle.load(f1)
 
+with open("dictionary.pkl", "rb") as f1:
+    id2word = pickle.load(f1)
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
