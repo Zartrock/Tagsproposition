@@ -1,6 +1,11 @@
 
 import pickle
+f2 = open("lda_model.pkl", "rb")
+lda_model = pickle.load(f2)
+print('good')
 
+f1 = open("dictionary.pkl", "rb")
+id2word = pickle.load(f1)
 
 
 from sklearn.model_selection import train_test_split
@@ -33,12 +38,7 @@ from gensim.models import CoherenceModel
 nltk.download('wordnet', r'C:\Users\jonas\PycharmProjects\pythonProject1\code\nltk_data')
 nltk.data.path.append(r'C:\Users\jonas\PycharmProjects\pythonProject1\code\nltk_data')
 
-f2 = open("lda_model.pkl", "rb")
-lda_model = pickle.load(f2)
-print('good')
 
-f1 = open("dictionary.pkl", "rb")
-id2word = pickle.load(f1)
 
 ##'''with open(r'C:/Users/jonas/Desktop/OC/P5/code/lda_model.pkl', 'rb') as file:
 ##   lda_model = pickle.load(file)
