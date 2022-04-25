@@ -21,6 +21,7 @@ from bs4 import BeautifulSoup
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 from nltk.corpus import stopwords
 from nltk import word_tokenize
 from nltk.tokenize import sent_tokenize
