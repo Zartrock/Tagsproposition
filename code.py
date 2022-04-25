@@ -1,5 +1,5 @@
-with open(r'C:/Users/jonas/Desktop/test/test.txt', 'r') as test:
-   lda_model = pickle.load(test)
+with open('C:/Users/jonas/Documents/test/test.txt', 'r') as test:
+   lda_model = f.read()
 print('good')
 import pickle
 from sklearn.model_selection import train_test_split
