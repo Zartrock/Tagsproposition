@@ -1,6 +1,6 @@
 
 import pickle
-f = open("Tagsproposition/lda_model.pkl", "rb")
+f = open("test.txt", "rb")
 print(f.read())
 
 print('good')
