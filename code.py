@@ -1,4 +1,4 @@
-with open(r'C:/Desktop/test/test.txt', 'r') as test:
+with open(r'C:/Users/jonas/Desktop/test/test.txt', 'r') as test:
    lda_model = pickle.load(test)
    
 import pickle
